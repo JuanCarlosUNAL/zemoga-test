@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Lato";
   src: url("./assets/fonts/Lato/Lato-Light.ttf");
+  font-weight: lighter;
 }
 @font-face {
   font-family: "Lato";
@@ -10,7 +11,7 @@
 @font-face {
   font-family: "Lato";
   src: url("./assets/fonts/Lato/Lato-Regular.ttf");
-  font-weight: 400;
+  font-weight: normal;
 }
 
 :root {
@@ -41,6 +42,17 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 
 main {
-  width: var(--xl-container-width);
+  flex-direction: column;
   justify-content: left;
+  width: var(--xl-container-width);
+}
+
+.font-light {
+  font-weight: lighter;
+}
+.font-regular {
+  font-weight: 400;
+}
+.font-bold {
+  font-weight: bold;
 }

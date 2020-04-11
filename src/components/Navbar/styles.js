@@ -3,7 +3,7 @@ import withStyles from 'react-jss';
 export default withStyles({
   container: {
     position: 'absolute',
-    background: 'linear-gradient(to bottom, rgb(0,0,0), rgb(255,255,255,0) )',
+    background: 'linear-gradient(to bottom, rgb(0,0,0,1), rgb(255,255,255,0) )',
     width: 'var(--xl-container-width)',
   },
   nav: {

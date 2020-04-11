@@ -1,42 +1,34 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 // import PropTypes from 'prop-types';
-import { ThumbDown, ThumbUp } from '@material-ui/icons';
+import { Close } from '@material-ui/icons';
 
 import useStyles from './styles';
+import RemainTime from './components/RemainTime';
+import BluredSection from './components/BluredSection';
+import BeCounted from './components/BeCounted';
 
-const 
 
 const HomeScreen = () => {
-  const styles = useStyles();
+  const backgroundImage = 'https://drive.google.com/uc?export=download&id=1mfdDNkoTUE140Q60G1izAP2Q4wA-1DQe';
+  const styles = useStyles({ backgroundImage });
 
   return (
     <main>
-      <div className={styles.mainRuling}>
-        <section className={styles.section}>
-          <div className={styles.blurContainer}>
-            <div className={styles.blur} />
-          </div>
-          <article className={styles.article}>
-            <small id="your-opinion">What's your opinion on</small>
-            <h2> Pope Francis? </h2>
-            <p>He’s talking tough on clergy sexual abuse, but is he just another papal pervert protector? (thumbs down) or a true pedophile punishing pontiff? (thumbs up)</p>
-
-            <a id="more-info" href="https://es.wikipedia.org/wiki/Francisco_(papa)">
-              <img alt="wiki" src="https://upload.wikimedia.org/wikipedia/commons/1/10/Wikipedia-W-bold-in-square.svg" />
-              More informnation
-            </a>
-            <h6>What's Your Veredict?</h6>
-          </article>
-          <div className={styles.buttonGroup}>
-            <button type="button" id="up">
-              <ThumbUp style={{ fontSize: '1.9rem', color: 'white' }} />
-            </button>
-            <button type="button" id="down">
-              <ThumbDown style={{ fontSize: '1.9rem', color: 'white' }} />
-            </button>
-          </div>
-        </section>
-      </div>
+      <section className={styles.mainRuling}>
+        <BluredSection
+          styles={styles}
+          personName="Pope Francis"
+          description="He’s talking tough on clergy sexual abuse, but is he just another papal pervert protector? (thumbs down) or a true pedophile punishing pontiff? (thumbs up)"
+          wikiLink="https://es.wikipedia.org/wiki/Francisco_(papa)"
+          backgroundImage={backgroundImage}
+        />
+        <RemainTime styles={styles} remainTime={22} />
+      </section>
+      <BeCounted />
+      <section className={styles.previusRules}>
+        <article />
+      </section>
     </main>
   );
 };
