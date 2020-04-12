@@ -67,9 +67,13 @@ main {
   font-weight: bold;
 }
 
-.bg-positive-color{
+.bg-positive-color {
   background-color: var(--positive-color);
 }
-.bg-negative-color{
+.bg-negative-color {
   background-color: var(--negative-color);
+}
+
+.hidden {
+  display: none;
 }

@@ -2,7 +2,7 @@ import { createUseStyles } from 'react-jss';
 
 export default createUseStyles({
   container: {
-    margin: '1.5rem var(--margin-horizontal)',
+    margin: '1.5rem var(--margin-horizontal) 0rem var(--margin-horizontal)',
   },
   beCounted: {
     alignItems: 'center',

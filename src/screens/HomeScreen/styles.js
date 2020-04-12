@@ -11,6 +11,7 @@ export default createUseStyles({
   previusRules: {
     flexFlow: 'row wrap',
     justifyContent: 'space-between',
+    marginTop: '1.5rem',
     padding: '0rem var(--margin-horizontal) 1.5rem var(--margin-horizontal)',
     '& h2': {
       fontSize: '2rem',
