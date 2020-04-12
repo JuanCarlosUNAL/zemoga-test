@@ -16,7 +16,9 @@ const BeCounted = () => {
           Be counted
         </h3>
         <p>
-          Rule of Thumb is a crowd sourced court of public opinion where anyone and everyone can speak out and speak freely. It’s easy: You share your opinion, we analyze and put the data in a public report.
+          Rule of Thumb is a crowd sourced court of public opinion where anyone and everyone
+          can speak out and speak freely. It’s easy: You share your opinion, we analyze and
+          put the data in a public report.
         </p>
         <button type="button" onClick={console.log}>
           <Close style={{ fontSize: 20 }} />

@@ -22,10 +22,10 @@ export default createUseStyles({
       },
     },
     '& #down': {
-      backgroundColor: '#1cbbb4',
+      backgroundColor: 'var(--positive-color)',
     },
     '& #up': {
-      backgroundColor: '#ffad1d',
+      backgroundColor: 'var(--negative-color)',
     },
   },
   article: {

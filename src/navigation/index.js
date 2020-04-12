@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import HomeScreen from '../screens/HomeScreen';
 
 import Routes from './Routes';
@@ -19,6 +20,7 @@ const Navigation = () => (
         <HomeScreen />
       </Route>
     </Switch>
+    <Footer />
   </Router>
 );
 

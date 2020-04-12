@@ -15,9 +15,15 @@
 }
 
 :root {
+  /* Measures */
   --xl-container-width: 62.5rem;
   --navbar-height: 5rem;
-  --margin-horizontal: 6rem;
+  --margin-horizontal: 5rem;
+
+  /* Colors */
+  --positive-color: #1cbbb4;
+  --negative-color: #ffad1d;
+
 }
 
 html {
@@ -35,6 +41,10 @@ body {
 body * {
   font-family: Lato, Arial, Helvetica, sans-serif;
   display: flex;
+}
+
+#root {
+  flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6, p, a{

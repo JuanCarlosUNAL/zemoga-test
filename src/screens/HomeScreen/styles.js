@@ -9,6 +9,13 @@ export default createUseStyles({
     width: '100%',
   },
   previusRules: {
-    padding: '1.5rem var(--margin-horizontal)',
+    flexFlow: 'row wrap',
+    justifyContent: 'space-between',
+    padding: '0rem var(--margin-horizontal) 1.5rem var(--margin-horizontal)',
+    '& h2': {
+      fontSize: '2rem',
+      marginBottom: '1rem',
+      width: '100%',
+    },
   },
 });
