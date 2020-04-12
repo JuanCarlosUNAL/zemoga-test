@@ -1,0 +1,38 @@
+[
+  {
+    "id": "7083275c31decd73fee7a2bc",
+    "positives": 10,
+    "negatives": 4,
+    "backgroundImage": "https://drive.google.com/uc?export=download&id=1eBePPuHVExaR_vYujZOIcr8eBHbsQ78c",
+    "category": "Entertainment",
+    "personName": "Kanye West",
+    "description": "Excepteur non reprehenderit tempor qui ut aliqua deserunt adipisicing Lorem cillum tempor ipsum do."
+  },
+  {
+    "id": "9fa1cb64569041421da453cf",
+    "positives": 50,
+    "negatives": 70,
+    "backgroundImage": "https://drive.google.com/uc?export=download&id=1P_fI959GepoPL4uB_VLeBKCAK2pAXRn_",
+    "category": "Business",
+    "personName": "Mark Zuckerberg",
+    "description": "Aliqua fugiat proident veniam eu pariatur cillum minim."
+  },
+  {
+    "id": "28af8548a3da59b5a85567b6",
+    "positives": 30,
+    "negatives": 45,
+    "backgroundImage": "https://drive.google.com/uc?export=download&id=16Nuc7NCt0oSs5620yvq-ZCKke-BrviaJ",
+    "category": "Politics",
+    "personName": "Kristina Fernándes de Kirchner",
+    "description": "Consequat duis quis dolore mollit est laborum cupidatat consectetur eiusmod sunt et."
+  },
+  {
+    "id": "3303cf16f22694135317ff0f",
+    "positives": 0,
+    "negatives": 49,
+    "backgroundImage": "https://drive.google.com/uc?export=download&id=1pb12cHstFRiL81ZUTXj35UUlvuS2e9yR",
+    "category": "Entertainment",
+    "personName": "Malala Yousafzai",
+    "description": "Sint consequat est nostrud nulla eiusmod nostrud amet."
+  }
+]

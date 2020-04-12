@@ -26,7 +26,7 @@ export default createUseStyles({
       '& span': {
         padding: '0 0.1rem 0 0.5rem',
       },
-      width: '64%',
+      width: ({ textLikePercentage }) => textLikePercentage,
       backgroundColor: 'var(--positive-color)',
     },
     '& div:nth-child(2)': {
@@ -34,7 +34,7 @@ export default createUseStyles({
       '& span': {
         padding: '0 0.5rem 0 0.1rem',
       },
-      width: '37%',
+      width: ({ textDilikePercentage }) => textDilikePercentage,
       backgroundColor: 'var(--negative-color)',
     },
   },
@@ -56,7 +56,7 @@ export default createUseStyles({
       fontSize: '0.6rem',
       fontWeight: 400,
     },
-    '& a': {
+    '& button': {
       textDecoration: 'none',
       padding: '0.75rem 1rem',
       color: 'white',

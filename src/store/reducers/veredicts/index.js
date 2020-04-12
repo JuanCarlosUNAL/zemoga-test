@@ -1,15 +1,16 @@
 import { createReducer } from 'redux-act';
 import {
-  ADD,
-  REMOVE,
+  dataLoaded, voteNegative, votePositive,
 } from '../../actions/veredicts';
 import {
-  addOne,
-  getInitialState,
-  removeOne,
+  getStateDataLoaded,
+  getStateDefaultData,
+  getStateVoteNegative,
+  getStateVotePositive,
 } from './helpers';
 
 export default createReducer({
-  [ADD]: addOne,
-  [REMOVE]: removeOne,
-}, getInitialState());
+  [dataLoaded]: getStateDataLoaded,
+  [votePositive]: getStateVotePositive,
+  [voteNegative]: getStateVoteNegative,
+}, getStateDefaultData());

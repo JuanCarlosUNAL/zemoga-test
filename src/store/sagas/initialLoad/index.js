@@ -1,8 +1,13 @@
 import {
   put,
 } from 'redux-saga/effects';
-import { ADD } from '../../actions/veredicts';
+import {
+  dataLoaded,
+  setStoredData,
+} from '../../actions/veredicts';
 
 export default function* () {
-  yield put(ADD());
+  const store = localStorage.getItem('store');
+  if (store) yield put(setStoredData(store));
+  yield put(dataLoaded());
 }
