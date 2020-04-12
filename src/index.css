@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6, p, a{
 
 main {
   flex-direction: column;
-  justify-content: left;
+  justify-content: flex-start;
   width: var(--xl-container-width);
 }
 
@@ -65,4 +65,11 @@ main {
 }
 .font-bold {
   font-weight: bold;
+}
+
+.bg-positive-color{
+  background-color: var(--positive-color);
+}
+.bg-negative-color{
+  background-color: var(--negative-color);
 }

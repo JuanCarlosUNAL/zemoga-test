@@ -43,22 +43,22 @@ export default createUseStyles({
     margin: '0rem 1.5rem',
     color: 'white',
     '& h3': {
+      position: 'relative',
       fontSize: '2.25rem',
+      '& svg': {
+        left: '-1.5rem', // margin
+        bottom: '0.6rem',
+        position: 'absolute',
+      },
     },
   },
-  fullReport: {
+  voteGroup: {
     margin: '1.5rem 0rem',
-    justifyContent: 'space-between',
+    alignItems: 'center',
 
-    '& p': {
-      alignItems: 'flex-end',
-      flexDirection: 'column',
-      fontSize: '0.6rem',
-      fontWeight: 400,
-    },
     '& button': {
       textDecoration: 'none',
-      padding: '0.75rem 1rem',
+      padding: '0.5rem 1rem',
       color: 'white',
       border: '1px solid white',
       backgroundColor: 'transparent',
@@ -71,5 +71,16 @@ export default createUseStyles({
     background: 'linear-gradient(to bottom, rgb(255,255,255,0), rgb(0,0,0,0.7) )',
     width: '100%',
     height: '100%',
+  },
+  radio: {
+    border: '2px solid transparernt',
+    marginRight: '0.5rem',
+
+    '& input': {
+      display: 'none',
+    },
+    '&.selected': {
+      border: '2px solid white',
+    },
   },
 });

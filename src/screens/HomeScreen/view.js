@@ -20,6 +20,7 @@ const HomeScreen = ({ mainRule, oldRules, votePositive, voteNegative }) => {
     personName,
   }) => (
     <RulingSquare
+      id={id}
       backgroundImage={backgroundImage}
       category={category}
       description={description}
@@ -55,6 +56,7 @@ const HomeScreen = ({ mainRule, oldRules, votePositive, voteNegative }) => {
 HomeScreen.propTypes = {
   oldRules: PropTypes.array.isRequired,
   votePositive: PropTypes.func.isRequired,
+  voteNegative: PropTypes.func.isRequired,
 };
 
 HomeScreen.defaultProps = {};
