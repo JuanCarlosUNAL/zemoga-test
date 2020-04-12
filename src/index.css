@@ -77,3 +77,7 @@ main {
 .hidden {
   display: none;
 }
+
+.with-margin {
+  margin-top: var(--navbar-height);
+}
