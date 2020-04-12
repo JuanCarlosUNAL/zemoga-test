@@ -1,8 +1,8 @@
 import { all, spawn } from 'redux-saga/effects';
-import initialLoad from './initialLoad';
+import storage from './storage';
 
 export default function* rootSagas() {
   yield all([
-    spawn(initialLoad),
+    spawn(storage),
   ]);
 }

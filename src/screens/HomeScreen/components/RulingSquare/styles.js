@@ -51,6 +51,13 @@ export default createUseStyles({
         position: 'absolute',
       },
     },
+    '& small': {
+      fontSize: '0.6rem',
+      marginBottom: '0.8rem',
+    },
+    '& p': {
+      height: '2.4rem',
+    },
   },
   voteGroup: {
     margin: '1.5rem 0rem',

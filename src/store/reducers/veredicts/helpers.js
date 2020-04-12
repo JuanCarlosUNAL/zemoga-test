@@ -35,3 +35,9 @@ export function getStateVoteNegative(state, id) {
     listRules,
   };
 }
+
+export function getStateSetStoreData(state, { listRules }) {
+  return {
+    listRules,
+  };
+}
