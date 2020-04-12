@@ -32,3 +32,5 @@ JSS was used to manage the style into the components.
 
 ### react router
 * is the tool to manage routes into react to avoid reloading the entirer page.
+
+![](ScreenShot.png)
